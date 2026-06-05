@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文 DOCX 生成"
+  short_description: "生成、排版、检查并渲染复核《化工进展》论文 DOCX"
+  default_prompt: "Use $huagongjinzhan-paper-skill to generate and validate a Chemical Industry and Engineering Progress manuscript DOCX."

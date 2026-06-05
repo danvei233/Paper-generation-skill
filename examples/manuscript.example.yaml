@@ -1,0 +1,111 @@
+article_type: 研究开发
+doi: "10.16085/j.issn.1000-6613.****-****"
+title_zh: "气泡泵压降模型的分析与优化"
+title_en: "Analysis and optimization of bubble pump pressure drop model"
+authors:
+  - name_zh: 陈新爱
+    name_en: "CHEN Xin’ai"
+    affiliations: [1]
+  - name_zh: 徐志南
+    name_en: "XU Zhinan"
+    affiliations: [2]
+affiliations:
+  - id: 1
+    zh: "浙江大学生命科学学院，浙江 杭州 310029"
+    en: "College of Life Science, Zhejiang University, Hangzhou 310029, Zhejiang, China"
+  - id: 2
+    zh: "清华大学生物工程研究所，北京 100084"
+    en: "Institute of Bioengineering, Tsinghua University, Beijing 100084, China"
+front_matter_notes:
+  - "收稿日期：2026-01-01；修改稿日期：2026-02-01。"
+  - "基金项目：国家自然科学基金项目（00000000）。"
+  - "第一作者及通信作者信息按期刊要求填写；本示例用普通文本模拟首页注释，不使用 Word 脚注。"
+abstract_zh: "针对单压吸收式制冷系统中气泡泵提升性能预测精度不足的问题，建立了一维稳态两相流压降数学模型，并将均相流模型、分相流摩阻压降模型和截面含气率模型进行组合比较。以饱和水为工质，结合提升管几何参数、加热功率和实验提升量数据，对不同模型的计算结果进行误差分析和适用性评价。结果表明，分相流框架下的摩阻压降模型与截面含气率模型合理组合后，能够更准确描述提升管内气液两相流动阻力变化，理论值与实验值在中等加热功率范围内吻合较好；当加热功率继续升高时，模型偏差随气泡聚并和流型转变而增大。该结果说明，气泡泵压降模型的选择应同时考虑摩阻项和含气率项的耦合影响，可为小型吸收式制冷装置的提升管尺寸设计和运行参数优化提供参考。"
+keywords_zh: ["单压吸收式制冷", "泵", "两相流", "模型", "优化"]
+classification:
+  clc: "TQ"
+  document_code: "A"
+abstract_en: "A one-dimensional steady two-phase pressure-drop model was established to improve prediction of bubble-pump lifting performance in a single-pressure absorption refrigeration system. Homogeneous models, separated-flow frictional pressure-drop models and void-fraction correlations were compared by using water as the working fluid and experimental lifting-rate data as validation references. The results show that a suitable combination of a separated-flow friction model and a void-fraction model can describe the resistance variation in the riser more accurately, and the calculated values agree well with experimental data in the medium heating-power range. The deviation increases at higher heating power because bubble coalescence and flow-pattern transition become more significant. These results indicate that model selection should consider the coupling between frictional resistance and void fraction, providing a basis for riser design and operating-parameter optimization."
+keywords_en: ["single-pressure absorption refrigeration", "pump", "two-phase flow", "model", "optimization"]
+sections:
+  - level: 0
+    title: ""   # 引言不写标题、不编号
+    paragraphs:
+      - "环境感应式开关膜一般是在多孔膜基材上接枝智能化聚合物刷作为环境感应开关{{cite:ref1}}。"
+  - level: 1
+    number: "1"
+    title: "材料和方法"
+  - level: 2
+    number: "1.1"
+    title: "材料"
+    paragraphs:
+      - "聚偏氟乙烯微孔膜由某公司提供，平均孔径为0.22μm。"
+  - level: 2
+    number: "1.2"
+    title: "实验装置"
+    paragraphs:
+      - "气泡泵如{{fig:fig1}}所示，系统主要包括竖直提升管、发生器、低位储液器和气液分离器。由{{eq:eq1}}可知，质量变化率可用于评价膜接枝效果。"
+    equations:
+      - id: eq1
+    figures:
+      - id: fig1
+  - level: 1
+    number: "2"
+    title: "结果与讨论"
+    paragraphs:
+      - "从{{table:tbl1}}可以看出，当其他条件相同时，指标随变量变化而变化{{cite:ref2}}。"
+    tables:
+      - id: tbl1
+  - level: 1
+    number: "3"
+    title: "结论"
+    conclusions:
+      - "分相流压降模型与截面含气率模型组合后能够更准确描述气泡泵提升管内阻力变化，模型选择需要同时考虑摩阻项和含气率项的耦合影响。"
+      - "当前示例仍存在实验工况数量有限、真实流型转变描述不足等问题，后续应结合更多加热功率和管径条件开展验证，并进一步完善高含气率区间的模型修正。"
+figures:
+  - id: fig1
+    path: "assets/figures/fig1.png"
+    caption: "气泡泵模型示意图"
+    note: "1—提升管；2—低位储液器；3—发生器"
+tables:
+  - id: tbl1
+    caption: "算例二流体参数表"
+    headers: ["流股", "进口温度/℃", "出口温度/℃"]
+    rows:
+      - ["H1", "180", "75"]
+      - ["H2", "280", "120"]
+equations:
+  - id: eq1
+    text: "Y=(Wg-W0)/W0×100%"
+symbols:
+  - symbol: "J"
+    meaning: "膜滤通量"
+    unit: "mL/(cm2·min)"
+references:
+  - id: ref1
+    type: P
+    applicants:
+      - "EINSTEIN A"
+      - "SZILARD L"
+    title: "The Einstein-Szilard refrigerator"
+    number: "US1781541"
+    date: "1930-11-11"
+  - id: ref2
+    text: "方甲闯, 郑宏飞, 李正良, 等. 小型太阳能吸收式空调多管弦月形通道溶液提升泵的性能研究[J]. 太阳能学报, 2007, 28(3): 291-295."
+    text_en: "FANG Jiachuang, ZHENG Hongfei, LI Zhengliang, et al. Performance study on solution lift pump of multi-tube meniscus channel for small solar absorption air-conditioning[J]. Acta Energiae Solaris Sinica, 2007, 28(3): 291-295."
+  - id: ref3
+    type: J
+    authors:
+      - "LI Ming"
+      - "ZHANG Wei"
+    title: "Appendix validation case for citation ordering"
+    journal: "Chemical Engineering Progress"
+    year: 2025
+    volume: 44
+    issue: 1
+    pages: "1-6"
+appendices:
+  - letter: A
+    title: "示例补充数据"
+    paragraphs:
+      - "附录用于放置必要的补充数据或推导。本示例仅用于验证附录编号、正文格式和附录引用{{cite:ref3}}。"

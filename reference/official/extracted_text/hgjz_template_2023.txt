@@ -1,0 +1,170 @@
+说明：此“论文模板”是由多篇文章拼接而成，内容多有不连贯处，仅供投稿或修改稿的体例格式时参考。全文中，红色为对模板内容等的说明，请仔细阅读；黑色为稿件的正式内容，请根据所投稿件情况进行修改。
+页面设置：纸张大小为A4，上页边距2.5厘米，下页边距2厘米，左右页边距2厘米；单栏，44行，每行46字，单倍行距；不需要排双栏；不需要页眉页脚。
+注意各部分内容的字体、字号。本刊投稿及修改稿，字母及数字均建议使用Times New Roman。本刊常用字体为“宋体、黑体、仿宋、楷体、Times New Roman”，其他字体请尽量不要使用。除特殊情况（矢量、矩阵等符号）外，字体均不要加粗。正式排版为方正飞翔排版，字体稍有不同。
+图、表、公式全文统一编号，在正文叙述中出现“见图1、见表1、见式(1)”等提示。图片、公式等非表格内容不要放在表格或文本框中，正文中插入方式为“嵌入型”、“无文字环绕”。图片去掉四周多余白边。
+全文尽量不要或减少使用文本框、脚注、尾注、批注、分节符、超链接，等。避免排版时导入错误。
+文章类型：综述与专论或研究开发或化工园区等
+DOI：10.16085/j.issn.1000-6613.****-****
+文章类型选择其一，文字录入，不要使用图片。单占一行。
+DOI号最后蓝色部分****-****为稿件编号，初投稿不必填写，修改稿须填写。单占一行。
+气泡泵压降模型的分析与优化
+论文题目要精炼、醒目，去掉“研究”、“实验”、“综述”等字样，一般不超过20个字。
+陈新爱1，徐志南2，范梅1,2，岑沛霖2
+（1浙江大学生命科学学院，浙江 杭州 310029；2清华大学生物工程研究所，北京 100084）
+作者姓名之间用逗号隔开；单位排在姓名之下，单位名称用全称，著录到二级单位，后接“，省 市 邮编”。
+摘要：利用两相流理论建立了一维、稳态的气泡泵压降数学模型。对3种均相流压降模型和15种分相流压降模型（3种分相流摩阻压降模型与5种截面含气率模型结合）进行了模拟计算，然后结合以饱和水为工质的气泡泵的实验数据，对理论值与实验值进行对比分析。结果表明：Friedel摩阻压降模型结合Zuber截面含气率模型的分相流压降模型的模拟精度最高，适用性最好。在选用该模型模拟气泡泵液体提升量随加热功率变化的流动特性时，发现理论值与实验值在一定加热功率范围内吻合很好，然而超过此范围，实验值与理论值的之差越来越大。因此提出了对气泡泵理论模型进行分段优化，结果表明：在低加热功率工况下模拟精度最高的是M-S分相流模型结合Tom变密度截面含气率模型，在高加热功率工况下模拟精度最高的是Dukler均相流摩阻压降模型。因此分段优化气泡泵理论模型的方法具有较高的可信性。
+关键词：单压吸收式制冷；泵；两相流；模型；优化
+中图分类号：TQ05；TH3      文献标志码：A      文章编号：
+摘要（不用“提要”）中一般不出现公式，首句一般去掉“本文”字样，不使用第一人称，不出现参考文献序号。综述文章要写出文章的主要内容和观点，背景介绍少写或不写，展望和综述要有具体内容（参见本刊网站“研究性文章、综述性文章摘要的写法”）。中文摘要应在300字以上。注意摘要、前言、结论（结语）相互的区别，不要重复。
+关键词尽量选用《化工进展》标准关键词表中提供的规范词，一般列5～8个关键词，尽量至少从《化工进展》标准关键词库中选取3个标准关键词，词间加分号。
+中图分类号按《中国图书馆分类法》确定，一般入TQ类别，如有相关可列出多个。文献标志码统一为A。文章编号作者不需填写。
+Analysis and optimization of bubble pump pressure drop model
+英文题目与中文题目对应，略去题目中的冠词，去掉“Study on”等字样。
+CHEN Xin’ai1, XU Zhinan2, FAN Mei1,2, CEN Peilin2
+(1College of Life Science, Zhejiang University, Hangzhou 310029, Zhejiang, China; 2Institute of Bioengineering, Tsinghua University, Beijing 100084, China)
+英文作者姓名之间用逗号隔开。姓所有字母均大写，名首字母大写，不用“-”。单位名称用全称，不用缩写，如Lab.等。后接“, 城市 邮编, 省, 国家名”。
+Abstract: Two-phase flow theory was used to establish an one-dimensional and steady state mathematical model of bubble pump pressure drop. Three kinds of homogeneous flow pressure drop models and 15 kinds of split phase flow pressure drop models (three kinds of split phase flow friction pressure drop models with 5 kinds of cross section gas rate models) were selected to simulate, then the experimental data of the bubble pump with saturated water as working fluid were analyzed and compared with the theoretical value. The result showed that simulation accuracy of the Friedel friction pressure drop model combining Zuber section gas rate model is the highest. However, when we use this model to simulate the flow characteristics of the liquid lift of the bubble pump with the change of the heating power, we found that the theoretical value and the experimental value agree well only within a certain range of heating power. Therefore, sectional optimization on bubble pump model was put forward. We found that the simulation accuracy of M-S split phase flow model combined with Tom variable density section gas rate model is the highest under the working condition of low heating power. The Dukler homogeneous flow model of the friction pressure drop is the best model under the higher heating power working condition. Therefore, the method of optimizing the theoretical model of bubble pump by subsection has high credibility.
+Keywords: single-pressure absorption refrigeration; pump; two-phase flow; model; optimization
+英文摘要应不少于中文摘要内容，包括论文研究目的、方法、结果和结论的主要内容。摘要中首次出现缩写时应注出全称。
+英文关键词与中文关键词对应，非专有名词字母均为小写，词间用分号隔开。使用“Keywords”，不使用“Key words”。
+英文部分标点符号用半角格式，后加半空格。
+环境感应式开关膜一般是在多孔膜基材上接枝智能化“聚合物刷”作为环境感应开关，该“聚合物刷”开关能感应环境因素的变化而改变它的构象，从而引起膜的渗透性能发生变化。环境感应式开关膜的用途相当广泛，能用于药物控制释放[1-2]、化学分离[3]、化学传感器以及组织工程[4]等。目前，具有智能开关的环境感应式开关膜是膜学与医用高分子材料领域的研究热点[5]。迄今，人们已经用辐照诱导接枝、化学接枝以及等离子体诱导接枝等不同的方法在多孔膜上接枝不同类型的智能开关，据报道这些智能开关能对温度、pH、光、电场、磁场、化学物质以及生物物质等不同环境信息的变化产生感应[1-4, 6-12]。然而，在这类开关膜的接枝率对其膜孔开关特性的影响方面，研究报道尚很少见。本文采用等离子体诱导填孔接枝聚合法在聚偏氟乙烯（PVDF）多孔膜上接枝聚(N-异丙基丙烯酰胺)（PNIPAM）温度感应型开关，制备了一系列具有较宽接枝率范围的感温型开关膜，较系统地研究了开关膜的接枝率对其温度感应开关特性的影响，以期为该类温度感应型开关膜在进一步应用开发中的设计和制备提供指导。
+研究性文章按照正常科技论文撰写，综述性文章的写法可参见本刊网站“作者中心”的“综述性文章的写法”。不需写出“引言”或“前言”两字，不排序号。文中尽量不用“我们”、“本人”等第一人称字样。
+引言应引述在这一领域的最新进展与问题，从而引出本工作的价值。建议包括以下内容：（1）本研究领域背景的综述；（2）其他学者已有研究成果的阐述及评论；（3）陈述为什么需要进行更多的或进一步的研究；（4）阐述作者本项研究的目的；（5）简述本文开展的研究工作；（6）本项研究结果的意义。
+1  材料和方法
+文中的层次编号用阿拉伯数字，并以“1”、“1.1”、“1.1.1”形式编排。
+1.1  材料
+聚偏氟乙烯（PVDF）微孔膜，浙江(火炬)西斗门膜工业有限公司提供，平均孔径为0.22μm（量、单位和符号严格执行国家标准，不可使用非法定计量单位，物理量符号用斜体，计量单位用正体。引用文献数据出现非法定计量单位时，应加换算成法定计量单位的关系式。组合单位，正文中用斜线形式，如mL/(cm2·min)；图表中用指数形式，如mL·cm﹣2·min﹣1。数字与单位之间不空格。正文中的文字，特别是字母或符号尽量不要使用公式编辑器或图片录入，如、）。N-异丙基丙烯酰胺（NIPAM），由日本Kohjin公司赠送，用正己烷-丙酮（体积比50/50）混合溶剂重结晶3次。氩气，纯度为99.5%。实验用水为双重去离子水，电阻为16MΩ。
+1.2  等离子体诱导填孔接枝聚合装置
+气泡泵如图1所示（在正文中必须有与图、表呼应的文字，且叙述应与图、表结果相符。图、表依出现的顺序全文统一编号），系统主要包括竖直提升管、发生器、低位储液器和气液分离器四大部件。系统以饱和水为工质，运行在一个大气压下。定义气泡泵的提升管径为D，提升管长为L，气泡泵动力压头为H，气泡泵的沉浸比为H/L。
+图1  气泡泵模型示意图
+1—提升管；2—低位储液器；3—锥形渐缩口发生器；4—气液分离器；5—热源
+图的下方须标注出图序和图题。图题、分图题、图注、图内文字，除专有名词外，本刊目前要求均用中文。
+图宽，半栏图宽一般不大于75mm，通栏图宽一般不大于150mm。
+流程图、设备图要合理、简洁，不列与正文无关的内容。注意流程图箭头走向。计算机框图要按规定画，如起始用、判断用◇等。
+1.3  分析测试仪器
+傅里叶变换红外光谱仪（FTIR），Spectrum one型，美国P-E Com.；扫描电镜（SEM），JSM-5900LV型，日本电子公司；电子微量天平（精度为0.01mg），Sartorius BP211D 型，瑞士；真空微滤器（φ60mm），浙江(火炬)西斗门膜工业有限公司；低温恒温槽（DC-0506型），上海衡平仪器仪表厂。
+1.4  PNIPAM接枝开关膜的制备
+（1）基材膜的洗净  PVDF多孔基材膜用乙醇洗净，干燥至恒量。
+（2）单体溶液的冻结脱气  用氮气置换30min后的去离子水配成一定浓度的NIPAM单体溶液。用液氮冻结，然后抽真空到1Pa以下，再解冻；反复3～4次，直至真空计读数反弹不超过13Pa。
+（3）单体瓶内氩气置换  单体溶液抽真空，然后充入氩气，再抽真空，反复3～4次使单体瓶中形成氩气氛围，最后单体瓶内压力保持为10Pa。
+（4）等离子体引发  对基材瓶内进行氩气置换，反复3～4次，压力亦控制为10Pa。启动射频功率源，对基材膜进行等离子体引发处理。
+（5）接枝聚合  向基材瓶中导入NIPAM单体溶液，在30℃恒温水浴中进行接枝聚合反应。反应进行到设定时间后，导入氧气使反应停止。
+（6）接枝膜的清洗  将接枝膜浸入双重去离子水，在30℃恒温水浴中进行振荡清洗24h，每隔8h更换一次去离子水。清洗后，膜在50℃下真空干燥至恒量。
+PNIPAM在PVDF基材膜上的接枝情况用FTIR和SEM进行表征。接枝量的大小用接枝率来表示，即PVDF多孔基材膜接枝PNIPAM开关前后的质量变化率，用式(1)计算。
+(1)
+公式依全文中出现的顺序统一编号，半角括号加数字。物理量符号注意用斜体（下脚一般为正体，变量为斜体）。请使用Mathtype等公式编辑器，不要使用文本输入或word自带的公式编辑器；避免以文字、图片的形式插入；不要放在表格、文本框中。
+1.5  PNIPAM接枝开关膜的温度感应性能实验
+PNIPAM接枝开关膜的温度感应开关特性用其在不同温度条件下真空过滤时水通量（J）（物理量符号在文中首次出现时，前面应有其中文名词，后文重复出现时可直接用符号表示）的变化来进行表征。在不同温度条件下，真空过滤压差恒定为 -90kPa。由于PNIPAM的低临界溶解温度（LCST）一般在32℃左右，所以将膜的环境温度变化范围设定为25～40℃。
+2  结果与讨论
+2.1  温敏型PNIPAM接枝开关膜的制备与表征
+2.1.1  等离子体诱导填孔接枝聚合原理
+等离子体（无论是惰性气体还是活性气体）只要与高分子材料短时间（数十秒到几分钟）接触就能有效地使高分子材料表面层中产生大量自由基。本实验所采用的是Ar气辉光放电等离子体，基材膜为PVDF微孔膜。产生自由基的反应可表示为式(2)。
+Ar→h＋e＋Ar+＋Ar－＋Ar*＋…  (等离子体化)                    (2)
+式中，h为等离子体辐射的紫外光；Ar*为激发态氩分子。等离子体的这些活性物种与PVDF膜孔表面（包括膜孔内表面）将会发生如式(3)、式(4)的一些生成自由基的反应。
+RF→R•＋F•                   （受紫外光的作用）              (3)
+RF＋Ar*→RF*＋Ar 或 R•＋F•＋Ar    （与激发态的原子或分子反应）    (4)
+新产生的自由基可以继续参与各种反应，若导入各种官能团则可接枝生成表面功能层。在膜孔内表面上接枝的PNIPAM链将会起到温度感应开关的作用。
+2.1.2  PNIPAM接枝膜的FTIR表征
+图2所示为聚偏氟乙烯膜接枝PNIPAM前后的红外光谱图，其中谱线a所示的是接枝前的基材膜，谱线b所示的是接枝PNIPAM后的膜。从图2中可见，同基材膜的IR谱线相比，接枝后的膜的IR谱线在1658.91cm-1处新增有明显的酰胺Ⅰ特征峰（羰基吸收），在1548.60cm-1处新增有酰胺Ⅱ特征峰（酰胺基中N—H及C—N吸收）。这充分证明PNIPAM已成功地接枝到PVDF膜上。
+图2  不同沉浸比下气泡泵理论值与实验值的对比
+坐标图一律采用封闭图，端线尽量取在刻度线上。
+横、竖坐标必须垂直，坐标刻度线的疏密程度要相近，刻度线朝向图内，一般去掉无数字对应的刻度线，不用背景网格线。标度数字尽量圆整，过大或过小时可用指数表示，如102、10-2。图四边框大小（不含坐标文字）一般为高4cm、宽6cm、线粗0.5磅，文字大小为6号。
+图注的各项间用分号，结束无标点。
+图内的空间较大时可将图注列在图内空白处。
+坐标物理量尽量用符号表示，物理量与单位之间用斜线，单位用指数形式。
+图在正文中的插入方式为“嵌入型”，不要放在表格或文本框中，图片尽量去掉四周多余白边。图中也尽量不要出现文本框，应组合为最终图片。
+2.1.3  具有不同接枝率的开关膜的形貌分析
+通过改变射频电源放电功率、NIPAM单体浓度和接枝时间可以制备出具有不同接枝率的PNIPAM开关膜。表1所示为不同制备工况条件下制备出的一些PNIPAM开关膜代码及其相应的PNIPAM接枝率。从表1可以看出，当其他条件相同时，PNIPAM接枝率随着放电功率增加而增大。这是由于，放电功率越高，多孔基材膜孔表面因等离子体诱导而产生的自由基数量就会越多，于是在同样反应时间内接枝聚合到膜上的PNIPAM量就会越大。当放电功率相同时，单体溶液中NIPAM浓度增大会使多孔膜上的PNIPAM接枝量增加。因为随着NIPAM单体浓度的增大将有更多的NIPAM单体分子扩散到膜孔表面参与接枝反应。
+表1  算例二流体参数表
+表的上方须注出表序和表题。表题、表注、表内文字，除专有名词外，本刊目前要求均用中文。
+表的结构应简洁，具有自明性，采用三线表。表头物理量对应数据应纵向可读。
+表注分两种：一种是对全表的综合性注释，以不加括号的阿拉伯数字编号，数字前冠以“注：”，注文回行时左边顶格，每注末加句号；另一种表注与表内某处文字或数字对应，这时表内文字或数字右上角加“①、②”字样，表注也以“①、②”引出注释文字。
+表内物理量尽量用符号表示。物理量与单位之间用斜线，单位用指数形式。
+为了观察具有不同接枝率的PNIPAM开关膜的微观形态，将膜放入液氮中深冷，然后脆断制样，镀金，用扫描电镜观测断面。图3所示为具有不同接枝率的PNIPAM开关膜的断面SEM图。可以看出，3张SEM照片所示的膜结构有明显的区别。图3(a)为未接枝的PVDF微孔基材膜，可以明显看出膜表层以及较疏松的支撑层结构；图3(b)和图3(c)均为PNIPAM接枝后的PVDF膜，可以看出，包括支撑层在内的整个膜厚度范围内膜结构都发生了变化，比基材膜显得致密，这说明沿整个膜厚度方向都较均匀地接枝上了PNIPAM。比较图3(b)和图3(c)还可以看出，随着PNIPAM接枝率的增大，膜断面变得更加致密，也就是说膜孔隙会随接枝率的增大而变小。
+图3  均相流摩阻压降模型的模拟评价结果
+图4  分相流摩阻压降模型的模拟评价结果
+分图用 (a)、(b) 等区分，分图题置于各分图下方。
+照片图必须清晰，层次分明，放大倍数（或比例尺）应清晰易辨。
+图尽量采用黑白图（必须能看清和区分），如有必要可采用彩色图。
+3  结论（综述性文章一般用“结语”）
+（1）FTIR图谱分析、SEM观测和过滤性能实验结果都表明PNIPAM能被均匀接枝在PVDF膜孔上。
+（2）射频放电功率增加、单体溶液中NIPAM浓度增大或者接枝反应时间延长，均会使多孔膜上的PNIPAM接枝率增加。
+（3）接枝率适中（0.19%～2.81%）的PNIPAM接枝多孔膜，温度感应孔径变化倍数和水通量在32℃附近发生较显著的变化，膜孔内接枝的PNIPAM分子链可以起到智能化温度感应开关的作用。
+（4）在设计和制备环境感应型智能化开关膜时，一定要将接枝率控制在适当的范围，才能获得预期的开关膜效果。
+在研究结果与讨论的基础上总结出本研究得到的重要论点，建议可包括以下内容：（1）解释结果；（2）将结果与之前提出的研究目的或假设相联系，阐明结果的重要性；（3）将结果与其他已有研究工作进行比较；（4）尽可能得出一个很清晰的结论。对每一个结论需要总结证据。同时也可以指出本工作的不足和将要开展工作的展望。
+请注意不能简单重复摘要和引言。
+符号说明
+按英文字母顺序排列，同一字母先排大写后排小写；希腊文接英文后排，也按字母顺序排列。采用如下表格形式。
+符号与说明间用二字线，说明文字与单位间用逗号。
+一个符号只代表一个物理含义，一个物理量只用一个符号表示。符号尽量简化，最好以单字母表示。有计量单位的，一定要给出单位，尽量使用国际制标准单位。
+物理量符号采用国家标准中的规定，如压力用p、温度用T，均用斜体。矢量、张量、矩阵用粗斜体。
+下角一般用小写正体，只有下列情况除外：（1）表示数、变量用小写斜体，如Si，i=1,2,…,i用斜体；（2）保留原物理含义，如比定压热容cp中的p为小写斜体。
+参考文献
+参考文献按文中引用先后顺序列出，序号加方括号。
+具体格式参见“《化工进展》参考文献著录规则”，并严格执行。注意，外文作者姓的所有字母在本部分正文后列序中均大写（正文中外文作者的姓只需首字母大写），中文文献下对应给出英文。标点符号用半角形式，注意间距。
+文中引用参考文献不要采用域、超链接等形式关联。均应该以文本形式录用。
+[1]	EINSTEIN A, SZILARD L. The Einstein-Szilard refrigerator: US1781541[P]. 1930-11-11.
+[2]	方甲闯, 郑宏飞, 李正良, 等. 小型太阳能吸收式空调多管弦月形通道溶液提升泵的性能研究[J]. 太阳能学报, 2007, 28(3): 291-295.
+FANG Jiachuang, ZHENG Hongfei, LI Zhengliang, et al. Study on performance of the thermosiphon solution elevation pump with multi-lunate channels in minitype solar absorption type air-conditionding system[J]. Acta Energiae Solaris Sinica, 2007, 28(3): 291-295.
+[3]	汤成伟, 刘道平, 祁影霞, 等. 单压吸收式Einstein循环制冷机中气泡泵的性能分析[J]. 制冷学报, 2009, 30(3): 35-39.
+TANG Chengwei, LIU Daoping, QI Yingxia, et al. Performance of bubble pump in single-pressure Einstein absorption refrigerator[J]. Journal of Refrigeration, 2009, 30(3): 35-39.
+[4]	STENNING A H, MARTIN C B. An analytical and experimental study of air lift pump performance[J]. Eng. Power, Trans. ASME, 1968, 90(2): 106-110.
+[5]	DELANO A. Design Analysis of the Einstein Refrigeration cycle[D]. Atlanta, Georgia: Georgia Institute of Technology, 1998.
+[6]	阙雄才, 李红. 热虹吸泵绝热弹状流的热虹吸特性研究——无泵LiBr吸收式太阳能制冷机机理研究之二[J]. 太阳能学报, 1989, 10(1): 1-13.
+QUE Xiongcai, LI Hong. Study on thermal siphon characteristics of slug flow with heat insulation in thermal siphon pump—The second mechanism studies on pumpless LiBr absorption solar refrigerating machine[J]. Acta Energiae Solaris Sinica, 1989, 10(1): 1-13.
+[7]	郑晓倩, 刘道平, 陈永军, 等. 圆弧形导流式气泡泵的冷态试验研究[J]. 流体机械, 2015, 43(9): 58-62.
+ZHENG Xiaoqian, LIU Daoping, CHEN Yongjun, et al. Experimental study of circular arc form guided bubble pump under cold state[J]. Fluid Machinery, 2015, 43(9): 58-62.
+[8]	陈永军, 刘道平, 黄塬琳, 等. 变截面直立管气泡泵理论模型验证研究[J]. 太阳能学报, 2016, 37(4): 917-923.
+CHEN Yongjun, LIU Daoping, HUANG Yuanlin, et al. Theoretical model validation study of variable cross-section upright tubular bubble pump[J]. Acta Energiae Solaris Sinica, 2016, 37(4): 917-923.
+[9]	刘振全, 吴玉莹, 张中诚. 无泵溴化锂吸收式制冷气泡泵压力特性数学模型的探讨[J]. 甘肃工业大学学报, 2003, 29(4): 57-59.
+LIU Zhenquan, WU Yuying, ZHANG Zhongcheng. Inquiry of mathematical model for pressure characteristics of bubble pump for pump-free lithium bromide absorption refrigeration[J]. Journal of Gansu University of Technology, 2003, 29(4): 57-59.
+[10]	平亚琴, 刘道平, 陈盛祥, 等. 单压吸收式制冷系统气泡泵理论模型与实验研究[J]. 制冷学报, 2010, 31(6): 46-50.
+PING Yaqin, LIU Daoping, CHEN Shengxiang, et al. Theoretical model and experimental analysis of bubble pump in single-pressure absorption refrigeration system[J]. Journal of Refrigeration, 2010, 31(6): 46-50.
+[11]	陈永军, 刘道平, 黄塬琳, 等. Einstein制冷系统气泡泵理论模型修正验证研究[J]. 制冷学报, 2014, 35(6): 68-74.
+CHEN Yongjun, LIU Daoping, HUANG Yuanlin, et al. Correction and validation of theoretical model of bubble pump in Einstein refrigeration system[J]. Journal of Refrigeration, 2014, 35(6): 68-74.
+[12]	李华山, 王令宝, 卜宪标, 等. 提升管管径对有机工质气泡泵性能的影响分析[J]. 新能源进展, 2016, 4(1): 56-61.
+LI Huashan, WANG Lingbao, BU Xianbiao, et al. Effects of lift-tube diameter on performance of bubble pump with organic working fluids[J]. Advances in New and Renewable Energy, 2016, 4(1): 56-61.
+[13]	MUDDE Robert F. Gravity-driven bubbly flows[J]. Annual Review of Fluid Mechanics, 2005, 37: 393-423.
+[14]	ZHANG Tongwang, WANG Jinfu, LUO Zi, et al. Multiphase flow characteristics of a novel internal-loop airlift reactor[J]. Chemical Engineering Journal, 2005, 109(1/2/3): 115-122.
+[15]	张立英, 黄青山. 气升式环流反应器的理论研究进展[J]. 过程工程学报, 2011, 11(1): 162-173.
+ZHANG Liying, HUANG Qingshan. Research progress in the modeling theory of airlift loop reactor[J]. The Chinese Journal of Process Engineering, 2011, 11(1): 162-173.
+[16]	MÜLLER-STEINHAGEN H, HECK K. A simple friction pressure drop correlation for two-phase flow in pipes[J]. Chemical Engineering and Processing: Process Intensification, 1986, 20(6): 297-308.
+[17]	LOMBARDI C, CARSANA C. Dimensionless pressure drop correlation for two-phase mixtures flowing up-flow in vertical ducts covering wide parameter ranges[J]. Heat and Technology, 1992, 10(1): 125-141.
+[18]	LOCKHART R, MARTINELLI R. Proposed correlation of data for isothermal two-phase, two-component flow in pipes[J]. Chemical Engineering Progress, 1949, 45(1): 39-48.
+[19]	FRIEDEL L. Improved friction pressure drop correlation for horizontal and vertical two-phase pipe flow[C]//European Two-Phase Flow Group Meeting, 1979
+[20]	林宗虎. 气液两相流和沸腾传热[M]. 西安: 西安交通大学出版社, 2003.
+LIN Zonghu. Gas-liquid two-phase flow and boiling heat transfer[M]. Xi’an: Xi’an Jiaotong University Press, 2003.
+[TABLE 0]
+流股	进口温度/℃	出口温度/℃	热容流率/kW·℃–1	换热系数/kW·m–2·℃–1
+H1	180	75	30	2.0
+H2	280	120	60	1.0
+H3	180	75	30	2.0
+H4	140	40	30	1.0
+H5	220	120	50	1.0
+H6	180	55	35	2.0
+H7	200	60	30	0.4
+H8	120	40	100	0.5
+C1	40	230	20	1.0
+C2	100	220	60	1.0
+C3	40	190	35	2.0
+C4	50	190	30	2.0
+C5	50	250	60	1.0
+C6	90	190	50	3.0
+C7	160	250	60	2.0
+HU	325	325	—	1.0
+CU	25	40	—	2.0
+[TABLE 1]
+dg, T，dg, 25	——	分别为接枝PNIPAM后的膜在温度T、25℃时的有效膜孔径，m
+J	——	膜滤通量，mL/(cm2·min)
+JT，J25，J40	——	分别为环境温度为T、25℃、40℃时实测的膜的水通量，mL/(cm2·min)
+Nd, T/25	——	PNIPAM接枝膜的温度感应孔径变化倍数（T和25℃时的有效膜孔径的比值）
+Nd, 40/25	——	PNIPAM接枝膜孔径感温变化倍数（40℃和25℃时的有效膜孔径的比值）
+p	——	膜过滤压力差，Pa
+W0，Wg	——	分别为接枝前、后膜的质量，g
+Y	——	PNIPAM在基材膜上的接枝率，%
+η	——	渗透液的黏度，Pa·s
+ηT，η25	——	分别为温度为T、25℃时渗透液的黏度，Pa·s
+下角标		
+0	——	接枝前
+g	——	接枝后

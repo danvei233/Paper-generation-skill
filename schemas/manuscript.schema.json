@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Huagongjinzhan manuscript source schema",
+  "type": "object",
+  "required": [
+    "article_type",
+    "title_zh",
+    "authors",
+    "abstract_zh",
+    "keywords_zh",
+    "title_en",
+    "abstract_en",
+    "keywords_en",
+    "sections",
+    "references"
+  ],
+  "properties": {
+    "article_type": {
+      "type": "string"
+    },
+    "doi": {
+      "type": "string"
+    },
+    "title_zh": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "affiliations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "front_matter_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "abstract_zh": {
+      "type": "string"
+    },
+    "keywords_zh": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "classification": {
+      "type": "object"
+    },
+    "abstract_en": {
+      "type": "string"
+    },
+    "keywords_en": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "title": {
+            "type": "string"
+          },
+          "paragraphs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "content": {
+            "type": "array",
+            "items": {
+              "type": [
+                "object",
+                "string"
+              ]
+            }
+          },
+          "figures": {
+            "type": "array",
+            "items": {
+              "type": [
+                "object",
+                "string"
+              ]
+            }
+          },
+          "tables": {
+            "type": "array",
+            "items": {
+              "type": [
+                "object",
+                "string"
+              ]
+            }
+          },
+          "equations": {
+            "type": "array",
+            "items": {
+              "type": [
+                "object",
+                "string"
+              ]
+            }
+          },
+          "conclusions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "tables": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "equations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "symbols": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "description": "Preformatted reference text. If present, formatter preserves it and only normalizes final period."
+          },
+          "text_en": {
+            "type": "string"
+          },
+          "translated_text": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "J",
+              "M",
+              "C",
+              "P",
+              "S",
+              "D",
+              "R",
+              "N",
+              "EB",
+              "EB/OL"
+            ]
+          },
+          "authors": {
+            "type": [
+              "array",
+              "string"
+            ]
+          },
+          "applicants": {
+            "type": [
+              "array",
+              "string"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "journal": {
+            "type": "string"
+          },
+          "year": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "volume": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "issue": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "pages": {
+            "type": "string"
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "place": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "appendices": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

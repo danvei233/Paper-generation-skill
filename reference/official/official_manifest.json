@@ -1,0 +1,381 @@
+[
+  {
+    "label": "论文模板",
+    "url": "https://hgjz.cip.com.cn/CN/news/news55.shtml",
+    "html": "reference\\official\\html\\news55_论文模板.html",
+    "attachments": [
+      {
+        "label": "点击下载：《化工进展》论文模板（2023）.doc",
+        "url": "https://hgjz.cip.com.cn/fileup/1000-6613/NEWS/20230825095921_NewsFile_68.doc"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "hgjz_template_2023.doc",
+        "url": "https://hgjz.cip.com.cn/fileup/1000-6613/NEWS/20230825095921_NewsFile_68.doc",
+        "bytes": 443392
+      }
+    ],
+    "failed": []
+  },
+  {
+    "label": "论文摘要写法",
+    "url": "https://hgjz.cip.com.cn/CN/news/news49.shtml",
+    "html": "reference\\official\\html\\news49_论文摘要写法.html",
+    "attachments": [
+      {
+        "label": "点击下载：《化工进展》论文摘要写法.doc",
+        "url": "http://www.hgjz.com.cn/UserFiles/File/《化工进展》论文摘要写法（2019）.doc"
+      }
+    ],
+    "downloaded": [],
+    "failed": [
+      {
+        "url": "http://www.hgjz.com.cn/UserFiles/File/《化工进展》论文摘要写法（2019）.doc",
+        "reason": "'ascii' codec can't encode characters in position 20-32: ordinal not in range(128)"
+      }
+    ]
+  },
+  {
+    "label": "标准关键词库",
+    "url": "https://hgjz.cip.com.cn/CN/news/news47.shtml",
+    "html": "reference\\official\\html\\news47_标准关键词库.html",
+    "attachments": [
+      {
+        "label": "点击下载：《化工进展》标准关键词库.doc",
+        "url": "http://www.hgjz.com.cn/UserFiles/File/《化工进展》标准关键词库（2019）.doc"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "hgjz_standard_keywords_2019.doc",
+        "url": "user-provided local browser download of http://www.hgjz.com.cn/UserFiles/File/《化工进展》标准关键词库（2019）.doc",
+        "bytes": 201728
+      }
+    ],
+    "failed": [
+      {
+        "url": "http://www.hgjz.com.cn/UserFiles/File/《化工进展》标准关键词库（2019）.doc",
+        "reason": "old-domain automatic download returned HTTP 403; resolved by user-provided browser download"
+      }
+    ]
+  },
+  {
+    "label": "中图分类号查询",
+    "url": "https://hgjz.cip.com.cn/CN/news/news656.shtml",
+    "html": "reference\\official\\html\\news656_中图分类号查询.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "参考文献著录格式",
+    "url": "https://hgjz.cip.com.cn/CN/news/news54.shtml",
+    "html": "reference\\official\\html\\news54_参考文献著录格式.html",
+    "attachments": [
+      {
+        "label": "点击下载：《化工进展》参考文献著录格式（2024）.docx",
+        "url": "https://hgjz.cip.com.cn/attached/file/20240206/20240206112245_857.docx"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "hgjz_reference_format_2024.docx",
+        "url": "https://hgjz.cip.com.cn/attached/file/20240206/20240206112245_857.docx",
+        "bytes": 25313
+      }
+    ],
+    "failed": []
+  },
+  {
+    "label": "论文著作权授权声明书",
+    "url": "https://hgjz.cip.com.cn/CN/news/news50.shtml",
+    "html": "reference\\official\\html\\news50_论文著作权授权声明书.html",
+    "attachments": [
+      {
+        "label": "《化工进展》论文著作权授权声明书.PDF",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230615/20230615133001_47.pdf"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "news50_论文著作权授权声明书.pdf",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230615/20230615133001_47.pdf",
+        "bytes": 827251
+      }
+    ],
+    "failed": []
+  },
+  {
+    "label": "校样文件修改情况表",
+    "url": "https://hgjz.cip.com.cn/CN/news/news710.shtml",
+    "html": "reference\\official\\html\\news710_校样文件修改情况表.html",
+    "attachments": [
+      {
+        "label": "校样文件修改情况表.docx",
+        "url": "https://hgjz.cip.com.cn/attached/file/20250602/20250602131432_349.docx"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "news710_校样文件修改情况表.docx",
+        "url": "https://hgjz.cip.com.cn/attached/file/20250602/20250602131432_349.docx",
+        "bytes": 14041
+      }
+    ],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》编辑部与北京进展期刊社有限公司关系证明",
+    "url": "https://hgjz.cip.com.cn/CN/news/news41.shtml",
+    "html": "reference\\official\\html\\news41_化工进展_编辑部与北京进展期刊社有限公司关系证明.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》内容授权许可协议",
+    "url": "https://hgjz.cip.com.cn/CN/news/news734.shtml",
+    "html": "reference\\official\\html\\news734_化工进展_内容授权许可协议.html",
+    "attachments": [
+      {
+        "label": "《化工进展》内容授权许可协议（中文版）",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230504/20230504092819_345.pdf"
+      },
+      {
+        "label": "《化工进展》内容授权许可协议（英文版）",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230504/20230504093010_203.pdf"
+      },
+      {
+        "label": "(Reuse and permissions license)",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230504/20230504093010_203.pdf"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "news734_化工进展_内容授权许可协议.pdf",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230504/20230504092819_345.pdf",
+        "bytes": 543260
+      },
+      {
+        "file": "news734_化工进展_内容授权许可协议.pdf",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230504/20230504093010_203.pdf",
+        "bytes": 607111
+      },
+      {
+        "file": "news734_化工进展_内容授权许可协议.pdf",
+        "url": "https://hgjz.cip.com.cn/attached/file/20230504/20230504093010_203.pdf",
+        "bytes": 607111
+      }
+    ],
+    "failed": []
+  },
+  {
+    "label": "综述性文章写法",
+    "url": "https://hgjz.cip.com.cn/CN/news/news48.shtml",
+    "html": "reference\\official\\html\\news48_综述性文章写法.html",
+    "attachments": [
+      {
+        "label": "点击下载：《化工进展》综述性文章写法.doc",
+        "url": "http://www.hgjz.com.cn/UserFiles/File/《化工进展》综述性文章写法（2019）.doc"
+      }
+    ],
+    "downloaded": [],
+    "failed": [
+      {
+        "url": "http://www.hgjz.com.cn/UserFiles/File/《化工进展》综述性文章写法（2019）.doc",
+        "reason": "'ascii' codec can't encode characters in position 20-33: ordinal not in range(128)"
+      }
+    ]
+  },
+  {
+    "label": "稿件收付费情况",
+    "url": "https://hgjz.cip.com.cn/CN/news/news51.shtml",
+    "html": "reference\\official\\html\\news51_稿件收付费情况.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "常见问题",
+    "url": "https://hgjz.cip.com.cn/CN/news/news46.shtml",
+    "html": "reference\\official\\html\\news46_常见问题.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "征稿简则",
+    "url": "https://hgjz.cip.com.cn/CN/news/news39.shtml",
+    "html": "reference\\official\\html\\news39_征稿简则.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》出版伦理规范",
+    "url": "https://hgjz.cip.com.cn/CN/news/news661.shtml",
+    "html": "reference\\official\\html\\news661_化工进展_出版伦理规范.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "对一稿两投问题的说明",
+    "url": "https://hgjz.cip.com.cn/CN/news/news53.shtml",
+    "html": "reference\\official\\html\\news53_对一稿两投问题的说明.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "稿件修改基本要求",
+    "url": "https://hgjz.cip.com.cn/CN/news/news44.shtml",
+    "html": "reference\\official\\html\\news44_稿件修改基本要求.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "稿件处理流程说明",
+    "url": "https://hgjz.cip.com.cn/CN/news/news42.shtml",
+    "html": "reference\\official\\html\\news42_稿件处理流程说明.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "绘图体例",
+    "url": "https://hgjz.cip.com.cn/CN/news/news45.shtml",
+    "html": "reference\\official\\html\\news45_绘图体例.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "栏目描述",
+    "url": "https://hgjz.cip.com.cn/CN/news/news40.shtml",
+    "html": "reference\\official\\html\\news40_栏目描述.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "专家审稿须知",
+    "url": "https://hgjz.cip.com.cn/CN/news/news59.shtml",
+    "html": "reference\\official\\html\\news59_专家审稿须知.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "综述性文章评审意见表",
+    "url": "https://hgjz.cip.com.cn/CN/news/news60.shtml",
+    "html": "reference\\official\\html\\news60_综述性文章评审意见表.html",
+    "attachments": [
+      {
+        "label": "综述性文章评审意见表.doc",
+        "url": "https://hgjz.cip.com.cn/attached/file/20190827/20190827135309_436.doc"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "news60_综述性文章评审意见表.doc",
+        "url": "https://hgjz.cip.com.cn/attached/file/20190827/20190827135309_436.doc",
+        "bytes": 50688
+      }
+    ],
+    "failed": []
+  },
+  {
+    "label": "研究性文章评审意见表",
+    "url": "https://hgjz.cip.com.cn/CN/news/news61.shtml",
+    "html": "reference\\official\\html\\news61_研究性文章评审意见表.html",
+    "attachments": [
+      {
+        "label": "研究性文章评审意见表.doc",
+        "url": "https://hgjz.cip.com.cn/attached/file/20190827/20190827135636_800.doc"
+      }
+    ],
+    "downloaded": [
+      {
+        "file": "news61_研究性文章评审意见表.doc",
+        "url": "https://hgjz.cip.com.cn/attached/file/20190827/20190827135636_800.doc",
+        "bytes": 67072
+      }
+    ],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》第十一届编委会",
+    "url": "https://hgjz.cip.com.cn/CN/news/news767.shtml",
+    "html": "reference\\official\\html\\news767_化工进展_第十一届编委会.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》第十届编委会",
+    "url": "https://hgjz.cip.com.cn/CN/news/news678.shtml",
+    "html": "reference\\official\\html\\news678_化工进展_第十届编委会.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》第九届编委会",
+    "url": "https://hgjz.cip.com.cn/CN/news/news57.shtml",
+    "html": "reference\\official\\html\\news57_化工进展_第九届编委会.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》第八届编委会",
+    "url": "https://hgjz.cip.com.cn/CN/news/news58.shtml",
+    "html": "reference\\official\\html\\news58_化工进展_第八届编委会.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》全新网站及投审稿系统上线通知公告",
+    "url": "https://hgjz.cip.com.cn/CN/news/news769.shtml",
+    "html": "reference\\official\\html\\news769_化工进展_全新网站及投审稿系统上线通知公告.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "致谢：《化工进展》2025年度审稿专家",
+    "url": "https://hgjz.cip.com.cn/CN/news/news771.shtml",
+    "html": "reference\\official\\html\\news771_致谢_化工进展_2025年度审稿专家.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》《化工学报》第一届联合青年编委会名...",
+    "url": "https://hgjz.cip.com.cn/CN/news/news763.shtml",
+    "html": "reference\\official\\html\\news763_化工进展_化工学报_第一届联合青年编委会名.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "《化工进展》2025年春节放假通知",
+    "url": "https://hgjz.cip.com.cn/CN/news/news762.shtml",
+    "html": "reference\\official\\html\\news762_化工进展_2025年春节放假通知.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  },
+  {
+    "label": "致谢：《化工进展》2024年度审稿专家",
+    "url": "https://hgjz.cip.com.cn/CN/news/news756.shtml",
+    "html": "reference\\official\\html\\news756_致谢_化工进展_2024年度审稿专家.html",
+    "attachments": [],
+    "downloaded": [],
+    "failed": []
+  }
+]

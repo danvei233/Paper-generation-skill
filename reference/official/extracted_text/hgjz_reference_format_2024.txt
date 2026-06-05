@@ -1,0 +1,59 @@
+《化工进展》参考文献著录格式
+正文后，“参考文献”四字为5号黑体，居中，不排序号；参考文献内容为小5号宋字体，外文及数字用Times New Roman字体。每条参考文献左起顶格排，序号用阿拉伯数字表示，加半角方括号，空一字格后接内容，序号上下应右齐，文献内容上下应左齐（转行后仍以左齐为准，不含序号。外文单词不得跨行，不得使用连字符）。文献（序号）必须按照正文中引用的先后顺序列出。
+参考文献的著录项目和著录格式应根据国家标准《信息与文献 参考文献著录规则》 （GB/T 7714—2015）以及《化工进展》期刊的具体要求填写。注意以下方面：
+（1）参考文献按文中引用先后顺序列出，序号加方括号。文献各要素、项目必须齐全。其著录时按原文献发表的正文语种填写；对于中文文献，采用先著录中文、再著录英文的形式，英文如果原文献有给出，不得自行翻译。必须给出文献类型的标识代码，如[J]、[M]、[P]、[S]、[C]等。
+（2）作者，无论中外文，都必须姓在前、名在后，多名作者间用逗号“, ”分开（三名及三名以内必须全部列出，三名以上列出前三位后加“, 等”或“, et al”表示。外文作者，“姓，不得缩写，全部字母必须都大写；名，首字母大写，其余字母小写，如果原文献是缩写，则以原文献为准）”。例如，作者“陈浩元”，外文需写成“CHEN Haoyuan”，不能写成“Chen H Y”、“CHEN H”或“H Y CHEN”等。本刊要求尽量使用全名，不使用缩写。
+（3）外文期刊刊名用正体，可列出全字母刊名，也可列出标准缩写刊名，全字母刊名的实词首字母大写，缩写刊名加缩写点“. ”。但推荐尽量使用全名，不建议缩写。外文的图书名、论文集名、文章名、学位论文名、报告名、专利名、标准名，等，只有文献题目首字母及专有名词需大写，其余小写。地址、单位、组织、会议名称、期刊名称，等，题目首字母、实词首字母及专有名词需大写。
+（4）关于图书版次，中文不加“第”，采用阿拉伯数字形式，如“2版. ”；英文用序数词缩写形式，如“5th ed. ”或“Rev. ed. ”。
+（5）期刊等连续出版物，如果是合卷期，需分别列出，不使用连字符，如“年, 卷(期): ”需写为“2012, 35/36/37(2/3/4): ”，不能写成“2012, 35-37(2-4): ”。
+（6）引用起止页码用连字符“-”连接。
+（7）每条文献结束后都要加圆点“. ”。
+（8）日期格式为：YY-MM-DD，如“2016-09-07”。
+（9）[引用日期]. 获取和访问路径. DOI号. 等是电子资源的必备条件，根据具体情况进行添加或省略。
+（10）文献著录用符号，均使用英文状态下的半角符号。
+附：
+文献类型及其标识代码：普通图书[M]，会议录[C]，汇编[G]，报纸[N]，期刊[J]，学位论文[D]，报告[R]，标准[S]，专利[P]，数据库[DB]，计算机程序[CP]，电子公告[EB]，档案[A]，舆图[CM]，数据集[DS]，其他[Z]。
+电子文献载体及其标识代码：磁带[MT]，磁盘[DK]，光盘[CD]，联机网络[OL]。
+顺序编码制文后参考文献著录格式示例
+（参考GB/T 7714—2015）
+1、期刊
+序号		作者. 文章标题[J]. 刊名, 出版年, 卷(期): 页码.
+[1]	NAIR Dinesh, LUTHRA Satinder Singh, SCARPELLO Justin T, et al.（作者名全拼，不缩写） Homogeneous catalyst separation and re-use through nanofiltration of organic solvents[J]. Desalination, 2002, 147/148(1/2/3): 301-306.
+[2]	龚俊波, 陈明洋, 黄翠, 等. 面向清洁生产的制药结晶[J]. 化工学报, 2015, 66(9): 3271-3278.
+GONG Junbo, CHEN Mingyang, HUANG Cui, et al.（作者名全拼，不缩写） Clean production of pharmaceutical crystallization[J]. CIESC Journal, 2015, 66(9): 3271-3278.
+2、图书
+序号		主要责任者. 题名[M]. 其他责任者. 版次(第1版不注). 出版地: 出版者, 出版年: 页码.
+[3]	米尔德. 膜技术基本原理[M]. 李琳, 译. 2版. 北京: 清华大学出版社, 1999: 221.
+MULDER Marcel. Basic principles of membrane technology[M]. LI Lin, trans. 2nd ed. Beijing: Tsinghua University Press, 1999: 221.
+[4]	KING C J.（原文献作者署名即为缩写，以原文献为准）Separation process based on reversible chemical complexation[M]//ROWSEAU Ronald W. Handbook of separation process technology. New York: John Wiley & Sons Inc., 1987: 760-774.
+3、会议论文
+序号		作者. 文章标题[C]//编者. 论文集或会议名称. 版次(第1版不注). 出版地: 出版者, 出版年: 页码.
+[5]	BEREZIN A B, PODBEREZNEY V L, CHERNOZUBOV V B. （原文献作者署名即为缩写，以原文献为准） Investigations of heat transfer in a film horizontal tube evaporator for sea water[C]//DELYANNIS A, DELYANNIS E. Proc. 6th Intern. Symp. Fresh Water from the Sea. Las Palmas, Spain: Chemical Institute of Spain, 1978: 97-104.
+[6]	陈志勇. 中国财税文化价值研究: “中国财税文化国际学术研讨会”论文集[C]. 北京: 经济科学出版社, 2011.
+CHEN Zhiyong. Research on the value of Chinese fiscal and taxation culture: Proceedings of the International Academic Symposium on Chinese Fiscal and Taxation Culture[C]. Beijing: Economic Science Press, 2011.
+4、专利
+序号		专利申请者. 专利题名: 专利公开号[P]. 公告日期或公开日期.
+[7]	张凯军．轨道火车及高速轨道火车紧急安全制动辅助装置：CN202827616U[P]. 2013-03-27.
+ZHANG Kaijun. Track train and high-speed track train emergency safe braking auxiliary device：CN202827616U[P]. 2013-03-27.
+[8]	TACHIBANA Ryuki, SHIMIZU Shuhichi, KOBAYSHI Seiji, et al. Electronic watermaking method and system: US6915001[P]. 2005-07-05.
+5、标准
+序号		主要责任者. 标准题名: 标准号[S]. 出版地: 出版者, 出版年.
+[9]	中华人民共和国国家质量监督检验检疫总局, 中国国家标准化管理委员会. 信息与文献 参考文献著录规则: GB/T 7714—2015[S]. 北京: 中国标准出版社, 2015.
+General Administration of Quality Supervision, Inspection and Quarantine of the People’s Republic of China, Standardization Administration of the People’s Republic of China. Information and documentation—Rules for bibliographic references and citations to information resources: GB/T 7714—2015[S]. Beijing: Standards Press of China, 2015.
+6、学位论文
+序号		作者. 论文题目[D]. 出版地（城市）: 出版者, 出版年.
+[10]	谭雷. 煤气甲烷化反应器数学模拟[D]. 上海: 华东理工大学, 2013.
+TAN Lei. Mathematical simulation on reactor for methanation of syngas[D]. Shanghai: East China University of Science and Technology, 2013.
+7、科技报告
+序号		作者. 题目: 其他题名[R]. 出版地: 出版者, 出版年: 页码.
+[11]	World Health Organization. Factors regulating the immune response: report of WHO Scientific Group[R]. Geneva: WHO, 1970.
+[12]	中华人民共和国国务院新闻办公室. 国防白皮书: 中国武装力量的多样化运用[R/OL]. (2013-04-16) [2014-06-11]. https://www.gov.cn/jrzg/2013-04/16/content_2379013.htm.
+8、报纸
+序号		作者. 题目[N]. 报纸名称, 年-月-日(版面).
+[13]	丁文祥. 数字革命与竞争国际化[N]. 中国青年报, 2000-11-20(15).
+DING Wenxiang. The digital revolution and competition internationalization[N]. China Youth Daily, 2000-11-20(15).
+[14]	刘裕国, 杨柳, 张洋, 等. 雾霾来袭, 如何突围[N/OL]. 人民日报, 2013-01-12 [2013-11-06]. http://paper.people.com.cn/rmrb/html/2013-0l/12/nw.D110000renmrb_20130112_2-04.htm.
+9、电子文献（不包括上述电子专著、连续出版物、专利、学位论文等）
+序号		主要责任者. 题名[EB/OL]. 出版地: 出版者, 出版年. (出版日期) [引用日期]. 获取和访问路径.
+[15]	Online Computer Library Center, Inc. About OCLC: history of cooperation[EB/OL]. (2010-05-06) [2012-03-27]. http: //www. oclc. org/ about/cooperation. en. html.
+[16]	箫钰. 出版业信息化迈入快车道[EB/OL]. (2001-12-19) [2002-04-15]. http://www.creader.com/news/2001l219/200112190019. html.

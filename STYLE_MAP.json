@@ -1,0 +1,2085 @@
+{
+  "skill_name": "huagongjinzhan-paper-skill",
+  "version": "0.1.0",
+  "default_journal": "化工进展",
+  "default_format": "Chemical Industry and Engineering Progress / 化工进展",
+  "source_template": "reference/《化工进展》论文模板格式（2026版）.docx",
+  "extraction_time": "2026-06-05T05:32:48.068879Z",
+  "status": "draft_skill_pack_for_codex_continuation",
+  "important_note": "模板文件说明其由多篇文章拼接而成，内容不连贯处仅作为体例格式参考；机器提取值和明示规则冲突时，以模板红字明示规则/期刊最新规则为准。",
+  "page_setup": {
+    "paper": "A4",
+    "width_cm": 21.0,
+    "height_cm": 29.7,
+    "top_margin_cm": 2.5,
+    "bottom_margin_cm": 2.0,
+    "left_margin_cm": 2.0,
+    "right_margin_cm": 2.0,
+    "columns": 1,
+    "line_spacing": "single",
+    "lines_per_page": 44,
+    "chars_per_line": 46,
+    "doc_grid": {
+      "type": "linesAndChars",
+      "linePitch": 324,
+      "charSpace": 4294967090,
+      "source": "template sectPr w:docGrid"
+    },
+    "header_footer": "none"
+  },
+  "strict_layout": {
+    "enabled": true,
+    "source": "reference/《化工进展》论文模板格式（2026版）.docx",
+    "policy": "Every machine-readable OOXML property listed here must be generated and checked. Unknown or conflicting template observations must be reported as warnings, not assumed correct.",
+    "tolerance": {
+      "twips": 8,
+      "half_points": 1,
+      "cm": 0.03
+    },
+    "page_ooxml": {
+      "pgSz": {
+        "w": "11906",
+        "h": "16838"
+      },
+      "pgMar": {
+        "top": "1418",
+        "bottom": "1134",
+        "left": "1134",
+        "right": "1134",
+        "header": "0",
+        "footer": "0",
+        "gutter": "0"
+      },
+      "docGrid": {
+        "type": "linesAndChars",
+        "linePitch": "324",
+        "charSpace": "4294967090"
+      }
+    },
+    "normal_style": {
+      "jc": "both",
+      "rFonts": {
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman",
+        "eastAsia": "宋体",
+        "cs": "Times New Roman"
+      },
+      "sz": "21",
+      "szCs": "24"
+    },
+    "paragraph_defaults": {
+      "line": "240",
+      "lineRule": "auto",
+      "before": "0",
+      "after": "0"
+    },
+    "front_matter_sequence": [
+      "article_type",
+      "doi",
+      "zh_title",
+      "zh_authors",
+      "zh_affiliations",
+      "front_matter_notes",
+      "zh_abstract",
+      "zh_keywords",
+      "classification_line",
+      "en_title",
+      "en_authors",
+      "en_affiliations",
+      "en_abstract",
+      "en_keywords"
+    ],
+    "styles": {
+      "article_type": {
+        "font_zh": "黑体",
+        "font_latin": "Times New Roman",
+        "sz": "32",
+        "szCs": "32",
+        "jc": null,
+        "line": "240",
+        "lineRule": "auto",
+        "ind": {
+          "left": "0",
+          "right": "0"
+        },
+        "single_paragraph": true
+      },
+      "doi": {
+        "font_zh": "黑体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "character_spacing": "1",
+        "jc": null,
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true,
+        "label_bold": true
+      },
+      "zh_title": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "32",
+        "szCs": "32",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true
+      },
+      "zh_authors": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "21",
+        "szCs": "24",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true
+      },
+      "zh_affiliations": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto",
+        "ind": {
+          "left": "210",
+          "hanging": "210",
+          "right": "0"
+        },
+        "single_paragraph": true
+      },
+      "front_matter_note": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "15",
+        "szCs": "15",
+        "firstLine": "420",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "zh_abstract": {
+        "font_zh": "楷体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "character_spacing": "1",
+        "ind": {
+          "left": "419",
+          "right": "419"
+        },
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true,
+        "label_run": {
+          "font_zh": "黑体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        },
+        "body_run": {
+          "font_zh": "楷体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        }
+      },
+      "zh_keywords": {
+        "font_zh": "楷体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "character_spacing": "1",
+        "ind": {
+          "left": "419",
+          "right": "419"
+        },
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true,
+        "label_run": {
+          "font_zh": "黑体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        },
+        "body_run": {
+          "font_zh": "楷体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        }
+      },
+      "classification_line": {
+        "font_zh": "楷体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "character_spacing": "1",
+        "ind": {
+          "left": "419",
+          "right": "419"
+        },
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true,
+        "label_texts": [
+          "中图分类号：",
+          "文献标志码：",
+          "文章编号："
+        ],
+        "label_run": {
+          "font_zh": "黑体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        },
+        "body_run": {
+          "font_zh": "楷体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        }
+      },
+      "en_title": {
+        "font_zh": "Times New Roman",
+        "font_latin": "Times New Roman",
+        "sz": "28",
+        "szCs": "28",
+        "jc": "center",
+        "ind": {
+          "left": "419",
+          "right": "419"
+        },
+        "line": "240",
+        "lineRule": "auto",
+        "bold": true,
+        "single_paragraph": true
+      },
+      "en_authors": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "21",
+        "szCs": "24",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true
+      },
+      "en_affiliations": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "jc": "center",
+        "ind": {
+          "left": "420",
+          "right": "501"
+        },
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true
+      },
+      "en_abstract": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "character_spacing": "1",
+        "ind": {
+          "left": "419",
+          "right": "419"
+        },
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true,
+        "label_bold": true,
+        "label_run": {
+          "font_zh": "宋体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1",
+          "bold": true
+        },
+        "body_run": {
+          "font_zh": "宋体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        }
+      },
+      "en_keywords": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "character_spacing": "1",
+        "ind": {
+          "left": "419",
+          "right": "419"
+        },
+        "line": "240",
+        "lineRule": "auto",
+        "single_paragraph": true,
+        "label_bold": true,
+        "label_run": {
+          "font_zh": "宋体",
+          "font_latin": "Times New Roman",
+          "sz": "21",
+          "szCs": "21",
+          "character_spacing": "1",
+          "bold": true
+        },
+        "body_run": {
+          "font_zh": "宋体",
+          "font_latin": "Times New Roman",
+          "sz": "18",
+          "szCs": "18",
+          "character_spacing": "1"
+        }
+      },
+      "body": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "21",
+        "szCs": "24",
+        "jc": "both",
+        "firstLine": "419",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "heading_1": {
+        "font_zh": "仿宋",
+        "font_latin": "Times New Roman",
+        "sz": "28",
+        "szCs": "28",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "heading_2": {
+        "font_zh": "黑体",
+        "font_latin": "Times New Roman",
+        "sz": "21",
+        "szCs": "24",
+        "line": "240",
+        "lineRule": "auto",
+        "number_bold": true
+      },
+      "heading_3": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "21",
+        "szCs": "24",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "appendix": {
+        "font_zh": "黑体",
+        "font_latin": "Times New Roman",
+        "sz": "21",
+        "szCs": "21",
+        "line": "240",
+        "lineRule": "auto",
+        "keep_with_next": true,
+        "warning": "模板未给出独立附录硬样式；本项固定生成器既有 fallback，并由检查器按 raw OOXML 校验。"
+      },
+      "figure_caption": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "figure_note": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "15",
+        "szCs": "15",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "table_caption": {
+        "font_zh": "黑体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "table_body": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "15",
+        "szCs": "15",
+        "jc": "center",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "equation_number": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "jc": "right",
+        "line": "240",
+        "lineRule": "auto"
+      },
+      "references": {
+        "font_zh": "宋体",
+        "font_latin": "Times New Roman",
+        "sz": "18",
+        "szCs": "18",
+        "ind": {
+          "left": "485",
+          "hanging": "485",
+          "right": "0"
+        },
+        "line": "240",
+        "lineRule": "auto"
+      }
+    },
+    "tables": {
+      "tblW": {
+        "w": "5536",
+        "type": "dxa"
+      },
+      "jc": "center",
+      "cellMar": {
+        "top": "0",
+        "bottom": "0",
+        "left": "108",
+        "right": "108"
+      },
+      "borders": {
+        "header_top": {
+          "val": "single",
+          "sz": "8",
+          "color": "000000"
+        },
+        "header_bottom": {
+          "val": "single",
+          "sz": "4",
+          "color": "000000"
+        },
+        "table_bottom": {
+          "val": "single",
+          "sz": "8",
+          "color": "000000"
+        },
+        "vertical": "absent",
+        "extra_horizontal": "absent"
+      }
+    },
+    "warnings": [
+      "The 2026 template is assembled from multiple articles and contains red instructional paragraphs; strict checks apply to generated manuscript content, not red instructions.",
+      "The template contains some missing direct run properties that inherit from Normal; this contract records the effective intended values used by the generator and checker.",
+      "MathType compatibility and internal figure line width/axis typography still require external visual/manual confirmation."
+    ]
+  },
+  "global_fonts": {
+    "chinese_allowed": [
+      "宋体",
+      "黑体",
+      "仿宋",
+      "楷体"
+    ],
+    "latin_digits": "Times New Roman",
+    "avoid_other_fonts": true,
+    "no_bold_except": [
+      "special vector/matrix symbols",
+      "explicit title/style needs"
+    ],
+    "physical_quantity_symbols": "italic",
+    "units": "upright"
+  },
+  "paragraph_styles": {
+    "article_type": {
+      "text_example": "文章类型：综述与专论或研究开发或化工园区等",
+      "font_zh": "黑体",
+      "font_size_pt": 16,
+      "line": "single",
+      "note": "单独一行，文字录入，不用图片"
+    },
+    "doi": {
+      "text_example": "DOI：10.16085/j.issn.1000-6613.****-****",
+      "font_size_pt": 10.5,
+      "bold_label": "DOI",
+      "note": "初投稿可不填稿件编号，修改稿填写"
+    },
+    "zh_title": {
+      "font_size_pt": 16,
+      "alignment": "center",
+      "font_latin": "Times New Roman",
+      "font_zh_observed": "KYGS/刊用稿宋?",
+      "max_chars_recommended": 20,
+      "avoid_words": [
+        "研究",
+        "实验",
+        "综述"
+      ]
+    },
+    "zh_authors": {
+      "alignment": "center",
+      "font_size_pt_observed": 10.5,
+      "separator": "，",
+      "affiliation_numbers": "上标或紧随姓名编号"
+    },
+    "zh_affiliations": {
+      "alignment": "center",
+      "font_size_pt": 9,
+      "format": "（1单位全称，省 市 邮编；2单位全称，省 市 邮编）"
+    },
+    "zh_abstract": {
+      "font_size_pt": 9,
+      "left_indent_cm": 0.74,
+      "label": "摘要：",
+      "min_chars": 300,
+      "no_formula": true,
+      "no_first_person": true,
+      "no_reference_numbers": true
+    },
+    "zh_keywords": {
+      "font_size_pt": 9,
+      "left_indent_cm": 0.74,
+      "label": "关键词：",
+      "count": "3-8",
+      "separator": "；"
+    },
+    "classification_line": {
+      "font_size_pt": 9,
+      "left_indent_cm": 0.74,
+      "fields": [
+        "中图分类号",
+        "文献标志码：A",
+        "文章编号"
+      ]
+    },
+    "en_title": {
+      "font_size_pt": 14,
+      "bold": true,
+      "alignment": "center",
+      "remove_words": [
+        "Study on"
+      ],
+      "omit_articles_where_possible": true
+    },
+    "en_authors": {
+      "alignment": "center",
+      "surname_case": "UPPER",
+      "given_name_case": "Initial Caps",
+      "no_hyphen": true
+    },
+    "en_affiliations": {
+      "font_size_pt": 9,
+      "alignment": "center",
+      "no_abbrev": true,
+      "format": "Institution, City postcode, Province, China"
+    },
+    "en_abstract": {
+      "label": "Abstract:",
+      "content": "not less than Chinese abstract; purpose/method/results/conclusion",
+      "abbreviation_rule": "spell out first occurrence"
+    },
+    "en_keywords": {
+      "label": "Keywords:",
+      "not_key_words": true,
+      "separator": ";",
+      "case": "lowercase except proper nouns"
+    },
+    "intro": {
+      "title": "none",
+      "number": "none",
+      "avoid_first_person": true
+    },
+    "heading_1": {
+      "number_format": "1",
+      "font_zh": "仿宋",
+      "font_size_pt": 14,
+      "separator_after_number": "two_spaces"
+    },
+    "heading_2": {
+      "number_format": "1.1",
+      "font_zh": "黑体",
+      "font_size_pt_observed": 10.5,
+      "number_bold": true,
+      "separator_after_number": "two_spaces"
+    },
+    "heading_3": {
+      "number_format": "1.1.1",
+      "font_size_pt_observed": 10.5,
+      "separator_after_number": "two_spaces"
+    },
+    "body": {
+      "font_zh": "宋体",
+      "font_latin_digits": "Times New Roman",
+      "font_size_pt_observed": 10.5,
+      "first_line_indent_cm": 0.74,
+      "alignment": "justified",
+      "line_spacing": "single"
+    },
+    "figure_caption": {
+      "position": "below_figure",
+      "format": "图 1  图题",
+      "alignment": "center",
+      "font_size_pt_observed": 9,
+      "language": "Chinese except proper nouns"
+    },
+    "figure_note": {
+      "position": "below_caption",
+      "separator": "；",
+      "ending_punctuation": "none",
+      "font_size_pt_observed": 7.5
+    },
+    "table_caption": {
+      "position": "above_table",
+      "format": "表 1  表题",
+      "alignment": "center",
+      "font_zh": "黑体",
+      "font_size_pt_observed": 9
+    },
+    "table_body": {
+      "font_size_pt_observed": 7.5,
+      "alignment": "center",
+      "table_style": "three-line table"
+    },
+    "equation": {
+      "numbering": "(1)",
+      "number_position": "right",
+      "font_size_pt_observed": 9,
+      "use_mathtype_or_equation_editor": "prefer MathType; do not insert as plain text/image if avoidable"
+    },
+    "conclusion": {
+      "research_article_title": "结论",
+      "review_article_title": "结语",
+      "item_number_format": "（1）"
+    },
+    "symbols": {
+      "title": "符号说明",
+      "order": "English alphabet, uppercase before lowercase; Greek after English",
+      "separator": "——",
+      "unit_separator": "，"
+    },
+    "references": {
+      "order": "order of first citation",
+      "citation_format": "[1] / [1-2] / [1, 3]",
+      "in_text_position": "superscript",
+      "appendix_citations": "included in the same first-citation sequence as main text",
+      "plain_text_required": true,
+      "bibliography_number_suffix": "ideographic_space_after_halfwidth_bracketed_number",
+      "foreign_surname_case": "UPPER",
+      "author_rule": "three or fewer list all; more than three list first three plus ', 等' or ', et al'",
+      "chinese_bilingual": true,
+      "punctuation": "halfwidth",
+      "ending": "halfwidth period",
+      "official_source": "reference/official/hgjz_reference_format_2024.docx",
+      "supported_structured_types": [
+        "J",
+        "M",
+        "C",
+        "P",
+        "S",
+        "D",
+        "R",
+        "N",
+        "EB/OL"
+      ]
+    },
+    "front_matter_note": {
+      "font_size_pt_observed": 7.5,
+      "render_as": "plain paragraph, not Word footnote",
+      "warning": "模板含首页脚注痕迹，但本工具链按提交稿禁用脚注处理"
+    },
+    "appendix": {
+      "number_format": "附录A",
+      "font_zh": "黑体",
+      "font_size_pt_observed": 10.5,
+      "warning": "模板未给出明确附录样式；生成器采用正文后附录标题 fallback"
+    }
+  },
+  "figures": {
+    "numbering": "global sequence in order of appearance",
+    "callout_required_before_figure": true,
+    "caption_below": true,
+    "half_column_max_width_mm": 75,
+    "full_column_max_width_mm": 150,
+    "insert_mode": "inline/no text wrapping",
+    "no_textbox": true,
+    "crop_white_margins": true,
+    "chart_requirements": {
+      "closed_frame": true,
+      "ticks_inward": true,
+      "no_background_grid": true,
+      "frame_size_cm": {
+        "height": 4,
+        "width": 6
+      },
+      "line_width_pt": 0.5,
+      "text_size": "6号",
+      "axis_label": "quantity/unit, unit in exponent form"
+    },
+    "subfigures": {
+      "labels": [
+        "(a)",
+        "(b)"
+      ],
+      "subcaption_position": "below each subfigure"
+    },
+    "photos": {
+      "clear": true,
+      "scale_bar_or_magnification": true,
+      "prefer_bw": true
+    }
+  },
+  "tables": {
+    "numbering": "global sequence in order of appearance",
+    "callout_required_before_table": true,
+    "caption_above": true,
+    "style": "three-line table",
+    "three_line_borders": {
+      "header_top_sz": 8,
+      "header_bottom_sz": 4,
+      "table_bottom_sz": 8,
+      "vertical_borders": "nil",
+      "extra_inner_horizontal_borders": "nil",
+      "cell_margin_left_right_twips": 108,
+      "source": "template table cell tcBorders"
+    },
+    "language": "Chinese except proper nouns",
+    "notes": {
+      "general": "注：1 ...。2 ...。",
+      "specific": "①、②"
+    },
+    "units": "quantity/unit, unit in exponent form"
+  },
+  "forbidden_ooxml_or_word_features": [
+    "text boxes",
+    "footnotes",
+    "endnotes",
+    "comments",
+    "section breaks unless necessary",
+    "hyperlinks",
+    "field-linked citations",
+    "headers/footers"
+  ],
+  "endnote_zotero_policy": {
+    "working_copy": "field codes allowed only before finalization",
+    "submission_copy": "convert citations and bibliography to plain text; keep separate backup with fields"
+  },
+  "content_rules": {
+    "official_sources": [
+      "docs/HGJZ_REQUIREMENTS_MATRIX.md",
+      "docs/LANGUAGE_STYLE_RULES.md",
+      "reference/official/hgjz_reference_format_2024.docx",
+      "reference/official/html/news39_征稿简则.html",
+      "reference/official/html/news44_稿件修改基本要求.html",
+      "reference/official/html/news45_绘图体例.html"
+    ],
+    "zh_title": {
+      "max_chars": 20,
+      "avoid_words": [
+        "研究",
+        "实验",
+        "综述"
+      ]
+    },
+    "abstract_zh": {
+      "min_chars": 300,
+      "avoid_starts": [
+        "本文",
+        "作者"
+      ],
+      "avoid_first_person": [
+        "我们",
+        "本人",
+        "本作者"
+      ],
+      "no_citations": true,
+      "no_equations": true,
+      "required_semantics": [
+        "研究问题",
+        "过程和方法",
+        "结果",
+        "定性定量表述"
+      ]
+    },
+    "keywords_zh": {
+      "min_count": 3,
+      "max_count": 6,
+      "preferred_max_count": 5,
+      "separator": "；",
+      "forbidden": [
+        "进展",
+        "综述",
+        "应用",
+        "研究"
+      ],
+      "standard_keyword_source": "reference/official/hgjz_standard_keywords_2019.json",
+      "standard_keyword_file": "reference/official/hgjz_standard_keywords_2019.json",
+      "min_standard_count": 3,
+      "standard_keyword_attachment_status": "available from user-provided official download"
+    },
+    "intro": {
+      "recommended_chars": 500,
+      "no_numbered_heading": true,
+      "must_cover": [
+        "研究背景",
+        "研究目的",
+        "研究意义"
+      ]
+    },
+    "body": {
+      "avoid_first_person": [
+        "我们",
+        "本人",
+        "本作者"
+      ],
+      "banned_legacy_units": [
+        "ppm",
+        "cal",
+        "atm",
+        "mmHg",
+        "in",
+        "bar",
+        "kgf"
+      ]
+    },
+    "conclusion": {
+      "research_required_topics": [
+        "结论",
+        "存在问题",
+        "前瞻性"
+      ],
+      "review_required_topics": [
+        "发展趋势",
+        "存在问题",
+        "前景展望"
+      ]
+    },
+    "references": {
+      "prefer_recent_years": 2,
+      "in_text_superscript": true,
+      "chinese_requires_english_counterpart": true,
+      "no_unpublished_or_untitled": true
+    }
+  },
+  "extracted_docx_section": {
+    "page_width_cm": 21.0009,
+    "page_height_cm": 29.7004,
+    "top_margin_cm": 2.5012,
+    "bottom_margin_cm": 2.0002,
+    "left_margin_cm": 2.0002,
+    "right_margin_cm": 2.0002
+  },
+  "extracted_samples": [
+    {
+      "index": 6,
+      "text": "文章类型：综述与专论或研究开发或化工园区等",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": 0.0035,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "文章类型：综述与专论",
+          "font": "黑体;SimHei",
+          "size_pt": 16.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "或",
+          "font": "宋体;SimSun",
+          "size_pt": 16.0,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "研究开发",
+          "font": "黑体;SimHei",
+          "size_pt": 16.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "或",
+          "font": "宋体;SimSun",
+          "size_pt": 16.0,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "化工园区",
+          "font": "黑体;SimHei",
+          "size_pt": 16.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "等",
+          "font": "宋体;SimSun",
+          "size_pt": 16.0,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "DOI：10.16085/j.issn.1000-6613.****-****",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": 0.0035,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "DOI",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "：",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "10.16085/j.issn.1000",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "-",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "6613",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": ".",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "****-****",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "0C03BD"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "文章类型选择其一，文字录入，不要使用图片。单占一行。",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "文章类型选择其一，文字录入，不要使用图片。单占一行。",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "DOI号最后蓝色部分****-****为稿件编号，初投稿不必填写，修改稿须填写。单占一行。",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "DOI",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "号最",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "后",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "蓝色部分",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "****-****",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "0C03BD"
+        },
+        {
+          "text": "为稿件编号，初投稿不必填写，修改稿须填写。单占一行。",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "气泡泵压降模型的分析与优化",
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "气泡泵压降模型的分析与优化",
+          "font": "KYGS;Times New Roman",
+          "size_pt": 16.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "陈新爱1，徐志南2，范梅1,2，岑沛霖2",
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "陈新爱",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "，徐志南",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "，范梅",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "1,2",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "，岑沛霖",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "摘要：利用两相流理论建立了一维、稳态的气泡泵压降数学模型。对3种均相流压降模型和15种分相流压降模型（3种分相流摩阻压降模型与5种截面含气率模型结合）进行了模拟计算，然后结合以饱和水为工质的气泡泵的实验数据，对理论值与实验值进行对比分析。结果表明：Friedel摩阻压降模型结合Zuber截面含气率模型的分相流压降模型的模拟精度最高，适用性最好。在选用该模型模",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": 0.7391,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "摘要：",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "利用两相流理论建立了一维、稳态的气泡泵压降数学模型。对",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "种均相流压降模型和",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "15",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "种分相流压降模型（",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "种分相流摩阻压降模型与",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "关键词：单压吸收式制冷；泵；两相流；模型；优化",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": 0.7391,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "关键词",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "：单压吸收式制冷；泵；两相流；模型；优化",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "中图分类号：          文献标志码：A      文章编号：",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": 0.7391,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "中图分类号：",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "文献标志码：",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "A",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "文章编号：",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "中图分类号按《中国图书馆分类法》确定，化学工程领域一般入TQ类别，如有相关可列出多个。文献标志码统一为A。文章编号作者不需填写。",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "中图分类号按《中国图书馆分类法》确定，化学工程",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "领域",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "一般入",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "TQ",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "类别，",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "如有相关可列出多个。文献标志码统一为",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "A",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "。文章编号作者不需填写。",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "Analysis and optimization of bubble pump pressure drop model",
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "left_indent_cm": 0.7391,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "Analysis and optimization of bubble pump",
+          "font": null,
+          "size_pt": 14.0,
+          "bold": true,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "text": "CHEN Xin’ai1, XU Zhinan2, FAN Mei1,2, CEN Peilin2",
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "C",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": true,
+          "color": null
+        },
+        {
+          "text": "HEN",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": true,
+          "color": null
+        },
+        {
+          "text": "Xin",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": true,
+          "color": null
+        },
+        {
+          "text": "’",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "ai",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": true,
+          "color": null
+        },
+        {
+          "text": "1",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": ",",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "X",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": true,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "text": "Abstract: Two-phase flow theory was used to establish an one-dimensional and steady state mathematical model of bubble pump pressure drop. Three kinds of homogeneous flow pressure ",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": 0.7391,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "Abstract",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": ":",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "Two-phase flow theory was used to establ",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "(three",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "kinds of split phase flow friction press",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": ")",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "were selected to simulate",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "text": "Keywords: single-pressure absorption refrigeration; pump; two-phase flow; model; optimization",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": 0.7391,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "Keywords",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": ":",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "single-pressure absorption refrigeration",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": ";",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "pump",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": ";",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "two-phase flow",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "text": "1  材料和方法",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "1",
+          "font": null,
+          "size_pt": 14.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "材料和方法",
+          "font": "仿宋",
+          "size_pt": 14.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "text": "1.1  材料",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "1.1",
+          "font": null,
+          "size_pt": null,
+          "bold": true,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "材料",
+          "font": "黑体;SimHei",
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "text": "气泡泵如图1所示（在正文中必须有与图、表呼应的文字，且叙述应与图、表结果相符。图、表依出现的顺序全文统一编号），系统主要包括竖直提升管、发生器、低位储液器和气液分离器四大部件。系统以饱和水为工质，运行在一个大气压下。定义气泡泵的提升管径为D，提升管长为L，气泡泵动力压头为H，气泡泵的沉浸比为H/L。",
+      "style": "正文缩进2",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": 0.7391,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "气泡泵如图",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "1",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "所示",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "（在正文中必须有与图、表呼应的文字，且叙述应与图、表结果相符。图、表依出现的顺序",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "FF0000"
+        },
+        {
+          "text": "，系统主要包括竖直提升管、发生器、低位储液器和气液分离器四大部件。系统以饱和水为",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "D",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": true,
+          "color": "000000"
+        },
+        {
+          "text": "，提升管长为",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "L",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": true,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "text": "图1  气泡泵模型示意图",
+      "style": "图题2",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "图",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "1",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "气泡泵模型示意图",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "text": "(1)",
+      "style": "Normal",
+      "alignment": "RIGHT (2)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "(1)",
+          "font": null,
+          "size_pt": 9.0,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "text": "图2所示为聚偏氟乙烯膜接枝PNIPAM前后的红外光谱图，其中谱线a所示的是接枝前的基材膜，谱线b所示的是接枝PNIPAM后的膜。从图2中可见，同基材膜的IR谱线相比，接枝后的膜的IR谱线在1658.91cm-1处新增有明显的酰胺Ⅰ特征峰（羰基吸收），在1548.60cm-1处新增有酰胺Ⅱ特征峰（酰胺基中N—H及C—N吸收）。这充分证明PNIPAM已成功地接枝",
+      "style": "Normal",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": 0.7391,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "图",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "所示为聚偏氟乙烯膜接枝",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "PNIPAM",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "前后的红外光谱图，其中谱线",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "a",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "所示的是接枝前的基材膜，谱线",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "b",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "text": "图2  不同沉浸比下气泡泵理论值与实验值的对比",
+      "style": "图题",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "图",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "2",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "不同沉浸比下气泡泵理论值与实验值的对比",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "text": "表1  算例二流体参数表",
+      "style": "表题",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "表",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "算例二",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        },
+        {
+          "text": "流体参数表",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "text": "图3  均相流摩阻压降模型的模拟评价结果",
+      "style": "图题",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "图",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "3",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "均相流摩阻压降模型的模拟评价结果",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "text": "图4  分相流摩阻压降模型的模拟评价结果",
+      "style": "图题",
+      "alignment": "None",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "图",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "4",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        },
+        {
+          "text": "分相流摩阻压降模型的模拟评价结果",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "text": "符号说明",
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "runs": [
+        {
+          "text": "符号说明",
+          "font": "黑体;SimHei",
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "color": null
+        }
+      ]
+    }
+  ]
+}
